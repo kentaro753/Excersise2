@@ -5,8 +5,8 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Text>Home Screen</Text>
-      <Button mode="contained" onPress={() => navigation.navigate("Detail")}>
-        go to Detail
+      <Button mode="contained" onPress={() => navigation.navigate("Profile")}>
+        go to Profile
       </Button>
     </View>
   );

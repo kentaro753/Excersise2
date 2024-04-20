@@ -17,7 +17,9 @@ import "react-native-gesture-handler";
 import DemoTheme from "./src/DemoThemePaper";
 import DemoBottomNavigation from "./src/DemoBottomNavigation";
 import DemoHelper from "./src/DemoHelper";
-import Excersise2 from "./src/Excersise2";
+import MyStack from "./src/MyStack";
+import MyDrawer from "./src/MyDrawer";
+import MyBottomTab from "./src/MyBottomTab";
 
 const App = () => {
   // const [index, setIndex] = useState(0);
@@ -75,7 +77,9 @@ const App = () => {
       {/* <DemoTheme/> */}
       {/* <DemoBottomNavigation/> */}
       {/* <DemoHelper/> */}
-      <Excersise2 />
+      {/* <MyStack /> */}
+      {/* <MyDrawer/> */}
+      <MyBottomTab />
     </PaperProvider>
   );
 };
